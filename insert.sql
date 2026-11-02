@@ -1,4 +1,4 @@
--- menambuat table database
+-- menambah dan menampilkan data
 
 NSERT INTO mahasiswa
 (nim, nama, prodi)
