@@ -1,4 +1,6 @@
-INSERT INTO mahasiswa
+-- menambuat table database
+
+NSERT INTO mahasiswa
 (nim, nama, prodi)
 values
 ('202900', 'well', 'TI');
