@@ -1,7 +1,8 @@
 -- 1. Tabel Induk (Pelanggan)
 CREATE TABLE pelanggan (
     id_pelanggan INT PRIMARY KEY,
-    nama_pelanggan VARCHAR(100)
+    nama_pelanggan VARCHAR (100),
+    alamat_pelanggan VARCHAR (100)
 );
 
 -- 2. Tabel Anak Pertama (Pesanan) -> Mengarah ke Pelanggan
@@ -19,3 +20,4 @@ CREATE TABLE transaksi (
     id_pesanan INT, -- Foreign Key yang merujuk ke tabel pesanan
     FOREIGN KEY (id_pesanan) REFERENCES pesanan(id_pesanan)
 );
+
